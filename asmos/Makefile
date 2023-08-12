@@ -4,7 +4,7 @@ QEMU=qemu-system-i386
 
 # mkisofs -o myfirst.iso -b myfirst.flp cdiso/
 
-qemu: $(NAME).flp
+run: $(NAME).flp
 	$(QEMU) -nographic -drive format=raw,file=$(NAME).flp
 
 $(NAME).flp: $(NAME).bin
