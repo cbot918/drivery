@@ -1,0 +1,1 @@
+cmd_/home/yale/coding/cbot918/drivery/try/modules.order := {   echo /home/yale/coding/cbot918/drivery/try/hello_module.ko; :; } | awk '!x[$$0]++' - > /home/yale/coding/cbot918/drivery/try/modules.order

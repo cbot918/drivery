@@ -1,0 +1,1 @@
+cmd_/home/yale/coding/cbot918/drivery/try/hello_module.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/yale/coding/cbot918/drivery/try/hello_module.ko /home/yale/coding/cbot918/drivery/try/hello_module.o /home/yale/coding/cbot918/drivery/try/hello_module.mod.o;  true

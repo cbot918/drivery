@@ -1,0 +1,1 @@
+cmd_/home/yale/coding/cbot918/drivery/try/Module.symvers := sed 's/\.ko$$/\.o/' /home/yale/coding/cbot918/drivery/try/modules.order | scripts/mod/modpost -m -a  -o /home/yale/coding/cbot918/drivery/try/Module.symvers -e -i Module.symvers   -T -
